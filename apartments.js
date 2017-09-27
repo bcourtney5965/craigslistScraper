@@ -8,10 +8,10 @@ const json2csv = require('json2csv');
 const _ = require('lodash');
 
 // go to CL - enter your own preferences and then past here
-const links = ['https://sfbay.craigslist.org/search/sby/apa?bundleDuplicates=1&search_distance=4&postal=95131&min_price=900&max_price=1500&availabilityMode=1&no_smoking=1']
+const url 'https://sfbay.craigslist.org/search/sby/apa?bundleDuplicates=1&search_distance=4&postal=95131&min_price=900&max_price=1500&availabilityMode=1&no_smoking=1';
 
 // visits the url and gets all apartments posted that day
-nightmare.goto(links[0])
+nightmare.goto(url)
   // waits until specified element has loaded
   .wait('.result-info span.result-price')
   .evaluate(function () {
