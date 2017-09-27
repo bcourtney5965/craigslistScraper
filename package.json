@@ -1,0 +1,20 @@
+{
+  "name": "craigslist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node apartments.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BC",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "jquery": "^3.2.1",
+    "json2csv": "^3.11.2",
+    "lodash": "^4.17.4",
+    "nightmare": "^2.10.0",
+    "nodemon": "^1.12.0"
+  }
+}
