@@ -11,5 +11,7 @@ $ yarn install
 $ npm start
 ```
 Open the generated .xls file with excel
+
 Navigate to & update the URL on line 11 with your preferences.
+
 Depending on your URL, you may need to update line 37 as well.
